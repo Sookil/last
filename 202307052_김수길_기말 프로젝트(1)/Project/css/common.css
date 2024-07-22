@@ -1,0 +1,455 @@
+/* 마진과 패딩 초기화 */
+* {
+    padding: 0; /* 모든 요소의 패딩 초기화 */
+    margin: 0; /* 모든 요소의 마진 초기화 */
+}
+
+/* 페이지 기본 글꼴과 크기 설정 */
+body {
+    
+}
+
+img {
+    border: 0; /* 이미지의 테두리 제거 */
+}
+
+ul {
+    list-style-type: none; /* 목록 스타일 제거 */
+}
+
+a {
+    display: inline-block; /* 링크를 인라인 블록 요소로 표시 */
+    text-decoration: none; /* 링크 텍스트의 밑줄 제거 */
+}
+
+a:link, a:hover, a:visited, a:active {
+    text-decoration: none; /* 링크의 기본 밑줄 제거 */
+    color: #222222; /* 링크의 기본 색상 설정 */
+}
+
+/* 상단 헤더 */
+#top {
+    position: relative; /* 요소의 상대 위치 설정 */
+    width: 1000px; /* 요소의 너비 설정 */
+    height: 80px; /* 요소의 높이 설정 */
+    margin: 0 auto; /* 좌우 마진을 자동으로 설정하여 가운데 정렬 */
+}
+.a0{    
+    font-family: 'Pacifico', cursive; /* 세련된 손글씨체 사용 */
+    font-size: 36px; /* 큰 글씨 크기 */
+    color: #333; /* 글씨 색상 */
+    text-decoration: none; /* 밑줄 제거 */
+    letter-spacing: 2px; /* 글자 간격 넓히기 */
+    
+}
+.a0:hover{
+    color: #ff6b6b;
+}
+
+.a1{
+    
+    font-size: 14px; /* 큰 글씨 크기 */
+    color: #333; /* 글씨 색상 */
+    text-decoration: none; /* 밑줄 제거 */
+    letter-spacing: 2px; /* 글자 간격 넓히기 */
+}
+.a1:hover{
+    color: #ff6b6b;
+}
+
+
+
+
+
+
+#top h3 {
+    position: absolute; /* 절대 위치 설정 */
+    top: 25px; /* 위쪽 위치 설정 */
+    left: 40px; /* 왼쪽 위치 설정 */
+    font-size: 16px; /* 글꼴 크기 설정 */
+}
+
+#top #top_menu {
+    float: right; /* 오른쪽으로 띄우기 */
+    margin: 30px 60px 0 0; /* 마진 설정 */
+}
+
+#top #top_menu li {
+    display: inline; /* 인라인으로 표시 */
+}
+
+/* 메뉴 바 설정 */
+#menu_bar {
+    height: 48px; /* 높이 설정 */
+    background-color: #443e58; /* 배경색 설정 */
+    font-size: 16px; /* 글꼴 크기 설정 */
+}
+
+#menu_bar ul {
+    width: 1000px; /* 너비 설정 */
+    margin: 0 auto; /* 좌우 마진을 자동으로 설정하여 가운데 정렬 */
+    padding: 14px 0 0 40px; /* 패딩 설정 */
+}
+
+#menu_bar li {
+    display: inline; /* 인라인으로 표시 */
+    margin-left: 90px; /* 왼쪽 마진 설정 */
+    color: white; /* 글자 색상 설정 */
+}
+
+#menu_bar a:link, #menu_bar a:hover, #menu_bar a:visited, #menu_bar a:active {
+    color: white; /* 링크 색상 설정 */
+}
+
+/* 메인 이미지 */
+#main_img_bar {
+    height: 230px; /* 높이 설정 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    background-color: #2092aa; /* 배경색 설정 */
+}
+
+#main_img_bar img {
+    margin-top: 30px; /* 위쪽 마진 설정 */
+}
+
+/* 하단 푸터 */
+footer {
+    height: 100px; /* 높이 설정 */
+    background-color: #2c2a29; /* 배경색 설정 */
+    position: relative; /* 상대 위치 설정 */
+    clear: both; /* 왼쪽과 오른쪽 요소 옆으로 나열하지 않음 */
+    margin-top: 50px; /* 위쪽 마진 설정 */
+}
+
+#footer_content {
+    position: relative; /* 상대 위치 설정 */
+    width: 1000px; /* 너비 설정 */
+    margin: 0 auto; /* 좌우 마진을 자동으로 설정하여 가운데 정렬 */
+    color: #dddddd; /* 글자 색상 설정 */
+}
+
+#footer_logo {
+    position: absolute; /* 절대 위치 설정 */
+    top: 30px; /* 위쪽 위치 설정 */
+    left: 50px; /* 왼쪽 위치 설정 */
+    font-size: 16px; /* 글자 크기 설정 */
+}
+
+#footer_logo span {
+    color: yellow; /* 글자 색상 설정 */
+}
+
+#download {
+    position: absolute; /* 절대 위치 설정 */
+    top: 20px; /* 위쪽 위치 설정 */
+    left: 400px; /* 왼쪽 위치 설정 */
+}
+
+#author {
+    position: absolute; /* 절대 위치 설정 */
+    top: 20px; /* 위쪽 위치 설정 */
+    left: 700px; /* 왼쪽 위치 설정 */
+}
+/* 공통 스타일 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons img {
+    margin-right: 10px;
+}
+
+.bottom_line {
+    margin-top: 10px;
+    border-bottom: 1px solid #ced4da;
+}
+
+#main_content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ced4da;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#join_box {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#join_box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #343a40;
+}
+
+.form {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.form .col1 {
+    width: 120px;
+    float: left;
+    font-weight: bold;
+    color: #495057;
+    margin-top: 8px;
+}
+
+.form .col2 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.form .col2 input[type="text"],
+.form .col2 input[type="password"],
+.form .col2 input[type="file"],
+.form .col2 textarea,
+.form .col2 select {
+    width: calc(100% - 130px); /* 폭 조정 */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form .col2 input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.form .col2 textarea {
+    height: 120px;
+    resize: none;
+}
+
+.form .col2 input[type="radio"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.form .col3 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.form .col3 img {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* 이미지 */
+#main_img_bar {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#main_img_bar img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* 푸터 */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #495057;
+}
+
+/* 인스타그램 느낌 추가 */
+#main_content, #join_box {
+    background-color: transparent; /* 배경 투명하게 */
+    border: none; /* 테두리 제거 */
+    box-shadow: none; /* 그림자 제거 */
+}
+
+#main_img_bar {
+    
+    width: auto;; /* main_img_bar의 너비 설정 */
+    height: auto;
+    text-align: center; /* 텍스트 가운데 정렬 */
+    margin-top: 0px; /* 위쪽 여백 설정 */
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); /* 그라데이션 배경 설정 */
+    padding: 80px; /* 내부 여백 설정 */
+    box-sizing: border-box; /* padding을 포함하여 요소의 크기 계산 */
+    
+}
+
+#main_img_bar img {
+    width:500px;
+    padding-bottom: 60px;
+    
+    border-radius: 20px; /* 이미지의 모서리를 둥글게 만듦 */
+    
+}
+
+footer {
+    background-color: transparent; /* 투명한 푸터 */
+}
+
+/* 버튼 스타일 */
+.buttons {
+    margin-top: 30px; /* 여백 추가 */
+}
+
+.buttons img {
+    width: 40px; /* 버튼 크기 조정 */
+    height: 40px;
+    border-radius: 50%; /* 원형 모양 */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+}
+
+.buttons img:hover {
+    transform: scale(1.1); /* 호버 시 확대 */
+}
+
+/* 입력 폼 스타일 */
+.form {
+    background-color: #f0f2f5; /* 입력 폼 배경색 */
+    padding: 20px; /* 여백 추가 */
+    border-radius: 10px; /* 모서리 둥글게 */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+}
+
+.form .col2 input[type="text"],
+.form .col2 input[type="password"],
+.form .col2 input[type="file"],
+.form .col2 textarea,
+.form .col2 select {
+    background-color: #e4e6eb; /* 입력 필드 배경색 */
+    border: none; /* 테두리 제거 */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+}
+
+.form .col2 input[type="text"]:focus,
+.form .col2 input[type="password"]:focus,
+.form .col2 input[type="file"]:focus,
+.form .col2 textarea:focus,
+.form .col2 select:focus {
+    background-color: #d0d2d6; /* 포커스 시 배경색 변경 */
+}
+
+.form .col2 input[type="checkbox"],
+.form .col2 input[type="radio"] {
+    margin-right: 5px; /* 체크박스 간격 조정 */
+}
+
+.form .col2 textarea {
+    resize: none; /* 텍스트 영역 크기 조정 불가 */
+}
+
+/* 제목 스타일 */
+#join_box h2 {
+    color: #262626; /* 제목 글자색 */
+}
+/* 슬라이스 */
+.swiper-container {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 600px; /* 스와이퍼 컨테이너의 높이 설정 */
+  margin-bottom: 5px; /* 슬라이드 아래 여백 */
+  overflow: hidden;
+}
+
+.swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  background: #000;
+  color: #fff;
+}
+
+.swiper-slide img {
+  width: auto;
+  height: 100%;
+  object-fit: cover; /* 이미지를 container에 맞추기 */
+  opacity: 0.7;
+}
+
+.slide-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding: 10px 20px;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+/* 스와이퍼 네비게이션 버튼 스타일 */
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+/* 검정색 버튼 스타일 */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+  background-color: #000;
+}
+
+/* 검정색 버튼 호버 스타일 */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #333;
+}
+
+
+

@@ -1,0 +1,167 @@
+/* 게시판 글쓰기(board_form.php) */
+#board_box { 
+    position: relative; /* 부모 요소를 기준으로 상대 위치 */
+    width: 800px; /* 너비 800px */
+    margin: 0 auto; /* 수평 가운데 정렬 */
+}
+
+#board_box h3 { 
+    margin-top: 30px; /* 상단 여백 30px */
+    padding: 10px; /* 모든 방향에 10px 패딩 */
+    border-bottom: solid 2px #4D3E89; /* 아래쪽 테두리 2px 실선, 색상 #4D3E89 */
+    font-size: 20px; /* 글자 크기 20px */
+}
+
+#board_form span { 
+    display: inline-block; /* 인라인 블록으로 표시 */
+}
+
+#board_form .col1 { 
+    width: 150px; /* 열 너비 150px */
+}
+
+#board_form li { 
+    padding: 12px; /* 모든 방향에 12px 패딩 */
+    border-bottom: solid 1px #dddddd; /* 아래쪽 테두리 1px 실선, 색상 #dddddd */
+}
+
+#board_form input { 
+    width: 500px; /* 너비 500px */
+    height: 25px; /* 높이 25px */
+}
+
+#board_form textarea {
+    width: 500px; /* 너비 500px */
+    height: 130px; /* 높이 130px */
+}
+
+#board_form #text_area { 
+    position: relative; /* 부모 요소를 기준으로 상대 위치 */
+    height: 158px; /* 높이 158px */
+}
+
+#board_form #text_area .col1 { 
+    position: absolute; /* 부모 요소를 기준으로 절대 위치 */
+    top: 10px; /* 상단에서 10px */
+}
+
+#board_form #text_area .col2 { 
+    position: absolute; /* 부모 요소를 기준으로 절대 위치 */
+    left: 166px; /* 왼쪽에서 166px */
+}
+
+#board_box .buttons { 
+    text-align: right; /* 텍스트를 오른쪽 정렬 */
+    margin: 20px 0 40px 0; /* 상단 여백 20px, 하단 여백 40px */
+}
+
+#board_box .buttons li { 
+    display: inline; /* 인라인으로 표시 */
+}
+
+#board_box .buttons button { 
+    padding: 5px 10px; /* 상하 패딩 5px, 좌우 패딩 10px */
+    cursor: pointer; /* 마우스 커서를 포인터로 변경 */
+}
+
+/* 게시판 목록보기(board_list.php) */
+#board_list li { 
+    display: flex; /* Flexbox 사용 */
+    justify-content: space-between; /* 열 간격을 균등하게 */
+    align-items: center; /* 세로 정렬을 중앙으로 */
+    padding: 10px 0; /* 상하 패딩 10px */
+    border-bottom: solid 1px #dddddd; /* 아래쪽 테두리 1px 실선, 색상 #dddddd */
+}
+
+#board_list span, 
+#board_list form { 
+    display: inline-block; /* 인라인 블록으로 표시 */
+    text-align: center; /* 텍스트를 가운데 정렬 */
+    margin: 0 10px; /* 좌우 마진 추가 */
+}
+
+#board_list .col1 { 
+    width: 50px; /* 열 너비 50px */
+}
+
+#board_list .col2 { 
+    width: 300px; /* 열 너비 300px */
+    text-align: left; /* 텍스트를 왼쪽 정렬 */
+}
+
+#board_list .col3 { 
+    width: 100px; /* 열 너비 100px */
+}
+
+#board_list .col4 { 
+    width: 40px; /* 열 너비 40px */
+}
+
+#board_list .col5 { 
+    width: 150px; /* 열 너비 150px */
+}
+
+#board_list .col6 { 
+    width: 50px; /* 열 너비 50px */
+}
+
+#board_list span {
+    display: inline-block; /* 인라인 블록 요소로 변경하여 한 줄에 표시 */
+}
+
+#board_list .col7 {
+    width: 80px; /* 열 너비 80px */
+    text-align: center; /* 가운데 정렬 */
+    vertical-align: middle; /* 세로 가운데 정렬 */
+}
+
+#page_num { 
+    text-align: center; /* 텍스트를 가운데 정렬 */
+    margin: 30px 0; /* 상하 여백 30px */
+}
+
+#page_num li { 
+    display: inline; /* 인라인으로 표시 */
+}
+
+.buttons { 
+    text-align: center; /* 텍스트를 가운데 정렬 */
+    margin: 20px 0; /* 상하 여백 20px */
+}
+
+.buttons button { 
+    margin: 0 5px; /* 좌우 마진 5px */
+}
+
+/* 게시판 내용보기(board_view.php) */
+#board_box { 
+    width: 800px; /* 너비 800px */
+    margin: 0 auto; /* 수평 가운데 정렬 */
+}
+
+#board_box .title { 
+    margin-top: 30px; /* 상단 여백 30px */
+    padding: 10px; /* 모든 방향에 10px 패딩 */
+    border-bottom: solid 2px #516e7f; /* 아래쪽 테두리 2px 실선, 색상 #516e7f */
+    font-size: 20px; /* 글자 크기 20px */
+}
+
+#view_content li:nth-child(1) { 
+    padding: 15px; /* 모든 방향에 15px 패딩 */
+    border-bottom: solid 1px #aaaaaa; /* 아래쪽 테두리 1px 실선, 색상 #aaaaaa */
+}
+
+#view_content .col2 { 
+    float: right; /* 오른쪽으로 플로팅 */
+}
+
+#view_content li:nth-child(2) { 
+    padding: 15px 15px 80px 15px; /* 상하 15px, 좌우 15px, 아래 80px 패딩 */
+    border-bottom: solid 1px #cccccc; /* 아래쪽 테두리 1px 실선, 색상 #cccccc */
+}
+
+#view_content li:nth-child(3) button { 
+    padding: 5px 20px; /* 상하 패딩 5px, 좌우 패딩 20px */
+    margin: 15px 0 40px 720px; /* 상단 15px, 하단 40px, 왼쪽 720px 여백 */
+    cursor: pointer; /* 마우스 커서를 포인터로 변경 */
+}

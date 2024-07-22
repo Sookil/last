@@ -1,0 +1,103 @@
+#join_box {
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgb(255 255 255 / 10%);
+}
+
+#join_box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #343a40;
+}
+
+.form .col1 {
+    width: 120px;
+    float: left;
+    font-weight: bold;
+    color: #495057;
+    margin-top: 10px;
+}
+
+.form .col2 {
+    
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.form .col2 input[type="text"],
+.form .col2 input[type="password"],
+.form .col2 input[type="file"],
+.form .col2 textarea,
+.form .col2 select {
+    width: auto;/* í­ ì¡°ì • */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form .col2 input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.form .col2 textarea {
+    height: 100px;
+    width: 400px;
+    resize: none;
+}
+
+.form .col2 input[type="radio"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.buttons img {
+    cursor: pointer;
+}
+#favorite_list {
+    width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#favorite_list h2 {
+    margin-bottom: 20px; 
+    padding-bottom: 10px; 
+    border-bottom: 1px solid #ddd; 
+    color: #333; 
+    font-size: 24px; 
+    text-align: center; 
+}
+
+#favorite_list ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+#favorite_list ul li {
+    margin-bottom: 10px; 
+    font-size: 16px; 
+    line-height: 1.6; 
+}
+
+#favorite_list ul li a {
+    color: #007bff; 
+    text-decoration: none; 
+}
+
+#favorite_list ul li a:hover {
+    text-decoration: underline; 
+}
